@@ -155,10 +155,9 @@ fi
 
 rm -rf "$HOME/.local/bin"
 cp -r bin "$HOME/.local/bin"
-ln -sf "$HOME/.local/opt/theme-manager/theme-manager" "$HOME/.local/bin/theme-manager"
 
 # Initialize theme
-bash -c "$HOME/.local/bin/theme-manager init"
+bash -c "$HOME/.local/opt/theme-manager/theme-manager init"
 
 # Configure speech-dispatcher
 spd-conf -ucn
