@@ -118,6 +118,8 @@ if ! pacman -Qi yay &>/dev/null; then
     cd ..
 fi
 
+mkdir -p "$HOME/.config"
+
 # Copy config files
 if [[ ! -d .config ]]; then
     if [[ ! -f .config.tar.gz ]]; then
@@ -131,6 +133,8 @@ for i in .config/*; do
     rm -rf "$HOME/$i"
     cp -r $i "$HOME/$i"
 done
+
+mkdir -p "$HOME/.local"
 
 # Copy opt files
 if [[ ! -d opt ]]; then
