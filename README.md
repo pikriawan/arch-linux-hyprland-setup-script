@@ -11,3 +11,10 @@ Preview:
 ![Gruvbox Dark](https://github.com/pikriawan/arch-linux-hyprland-setup-script/raw/refs/heads/main/images/Screenshot%20From%202026-09-21%2022-54-10.png)
 
 ![Night Owl](https://github.com/pikriawan/arch-linux-hyprland-setup-script/raw/refs/heads/main/images/Screenshot%20From%202026-09-21%2022-54-17.png)
+
+Instalasi
+
+Jalankan command berikut di Arch Linux base install:
+```bash
+curl -fsSL https://github.com/pikriawan/arch-linux-hyprland-setup-script/raw/refs/heads/main/install.sh | bash
+```
